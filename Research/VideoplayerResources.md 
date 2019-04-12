@@ -1,0 +1,21 @@
+# Videoplayer resources and elements 
+
+*Use AVKit Framework to create view-level services for media playback, complete with user controls and chapter navigation* : https://developer.apple.com/documentation/avkit
+
+*AVPlayerViewController is an object that displays the video content from a player object along with system-supplied playback controls* : https://developer.apple.com/documentation/avkit/avplayerviewcontroller
+
+*Use AVFoundation Framework to work with audiovisual assets, process audio, and configure system audio interactions* : https://developer.apple.com/documentation/avfoundation
+
+*Use contentOverlayView to display a view between the video content and the playback controls* : https://developer.apple.com/documentation/avkit/avplayerviewcontroller/1615835-contentoverlayview
+
+*An iOS video player based on AVFoundation* : https://iosexample.com/an-ios-video-player-base-on-avfoundation/
+
+*Play local video with AVPlayerViewController and AVKit* : https://www.youtube.com/watch?v=PilNQ2TkwGw
+
+
+*Swift 4 - Embed and Play Video (AVPlayerViewController)* : https://www.youtube.com/watch?v=RCVcqjjvZBM
+
+
+
+
+

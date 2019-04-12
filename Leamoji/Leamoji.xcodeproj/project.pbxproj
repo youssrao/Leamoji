@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D426CDA02199E43200946EEE /* MovieParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D426CD9F2199E43200946EEE /* MovieParser.swift */; };
+		D427AA6C218B1F8F00D5E829 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D427AA6B218B1F8F00D5E829 /* CollectionViewCell.swift */; };
+		D427AA80218B322B00D5E829 /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D427AA7F218B322B00D5E829 /* VideoDetailViewController.swift */; };
+		D42ACCAF21A802EE00F390B0 /* EmojiModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D42ACCAE21A802EE00F390B0 /* EmojiModel.mlmodel */; };
+		D46C7BBF2188ECC000EBEE29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C7BBE2188ECC000EBEE29 /* AppDelegate.swift */; };
+		D46C7BC12188ECC000EBEE29 /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C7BC02188ECC000EBEE29 /* VideoListViewController.swift */; };
+		D46C7BC42188ECC000EBEE29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46C7BC22188ECC000EBEE29 /* Main.storyboard */; };
+		D46C7BC62188ECC200EBEE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46C7BC52188ECC200EBEE29 /* Assets.xcassets */; };
+		D46C7BC92188ECC200EBEE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46C7BC72188ECC200EBEE29 /* LaunchScreen.storyboard */; };
+		D46C7BDF2188ECDB00EBEE29 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C7BDE2188ECDB00EBEE29 /* Movie.swift */; };
+		D46E03822195E0900057CFDD /* TheNutCracker in Resources */ = {isa = PBXBuildFile; fileRef = D46E03742195E08F0057CFDD /* TheNutCracker */; };
+		D46E03832195E0900057CFDD /* AliceInWonderland.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E03752195E08F0057CFDD /* AliceInWonderland.mp4 */; };
+		D46E03842195E0900057CFDD /* AntMan2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E03762195E08F0057CFDD /* AntMan2.mp4 */; };
+		D46E03852195E0900057CFDD /* AntMan.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E03772195E0900057CFDD /* AntMan.mp4 */; };
+		D46E03862195E0900057CFDD /* TheNutCracker.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E03782195E0900057CFDD /* TheNutCracker.mp4 */; };
+		D46E03872195E0900057CFDD /* BlackPanther.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E03792195E0900057CFDD /* BlackPanther.mp4 */; };
+		D46E03882195E0900057CFDD /* AliceInWonderland in Resources */ = {isa = PBXBuildFile; fileRef = D46E037A2195E0900057CFDD /* AliceInWonderland */; };
+		D46E03892195E0900057CFDD /* Maleficent in Resources */ = {isa = PBXBuildFile; fileRef = D46E037B2195E0900057CFDD /* Maleficent */; };
+		D46E038A2195E0900057CFDD /* WrinkleInTime in Resources */ = {isa = PBXBuildFile; fileRef = D46E037C2195E0900057CFDD /* WrinkleInTime */; };
+		D46E038B2195E0900057CFDD /* Maleficent.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E037D2195E0900057CFDD /* Maleficent.mp4 */; };
+		D46E038C2195E0900057CFDD /* MaryPoppinsReturns.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E037E2195E0900057CFDD /* MaryPoppinsReturns.mp4 */; };
+		D46E038D2195E0900057CFDD /* BlackPanther in Resources */ = {isa = PBXBuildFile; fileRef = D46E037F2195E0900057CFDD /* BlackPanther */; };
+		D46E038E2195E0900057CFDD /* MaryPoppinsReturns in Resources */ = {isa = PBXBuildFile; fileRef = D46E03802195E0900057CFDD /* MaryPoppinsReturns */; };
+		D46E038F2195E0900057CFDD /* WrinkleInTime.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E03812195E0900057CFDD /* WrinkleInTime.mp4 */; };
+		D46E03922195E15F0057CFDD /* AntMan2 in Resources */ = {isa = PBXBuildFile; fileRef = D46E03902195E15F0057CFDD /* AntMan2 */; };
+		D46E03932195E15F0057CFDD /* AntMan in Resources */ = {isa = PBXBuildFile; fileRef = D46E03912195E15F0057CFDD /* AntMan */; };
+		D4A61439219B7FE500718967 /* MovieMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A61438219B7FE400718967 /* MovieMarkers.swift */; };
+		D4C52062219C38FE000DB2BA /* EmojiAVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C52061219C38FE000DB2BA /* EmojiAVPlayerViewController.swift */; };
+		D4E7DEFC2189BDA000A5D3D2 /* MovieData.json in Resources */ = {isa = PBXBuildFile; fileRef = D4E7DEFB2189BD9F00A5D3D2 /* MovieData.json */; };
+		D4E951D4218E30A000E6FA54 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E951D2218E30A000E6FA54 /* AVFoundation.framework */; };
+		D4E951D5218E30A000E6FA54 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E951D3218E30A000E6FA54 /* AVKit.framework */; };
+		D4E951E32191CA4900E6FA54 /* EmojiLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E951E22191CA4900E6FA54 /* EmojiLogic.swift */; };
+		D4F4BECA219E110F00FEFBBB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F4BEC9219E110F00FEFBBB /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D46C7BD02188ECC200EBEE29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D46C7BB32188ECC000EBEE29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D46C7BBA2188ECC000EBEE29;
+			remoteInfo = Leamoji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D426CD9F2199E43200946EEE /* MovieParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieParser.swift; sourceTree = "<group>"; };
+		D427AA6B218B1F8F00D5E829 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		D427AA7F218B322B00D5E829 /* VideoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
+		D42ACCAE21A802EE00F390B0 /* EmojiModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EmojiModel.mlmodel; sourceTree = "<group>"; };
+		D46C7BBB2188ECC000EBEE29 /* Leamoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leamoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46C7BBE2188ECC000EBEE29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D46C7BC02188ECC000EBEE29 /* VideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
+		D46C7BC32188ECC000EBEE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D46C7BC52188ECC200EBEE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D46C7BC82188ECC200EBEE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D46C7BCA2188ECC200EBEE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46C7BCF2188ECC200EBEE29 /* LeamojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeamojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46C7BDE2188ECDB00EBEE29 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D46E03742195E08F0057CFDD /* TheNutCracker */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TheNutCracker; sourceTree = "<group>"; };
+		D46E03752195E08F0057CFDD /* AliceInWonderland.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AliceInWonderland.mp4; sourceTree = "<group>"; };
+		D46E03762195E08F0057CFDD /* AntMan2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntMan2.mp4; sourceTree = "<group>"; };
+		D46E03772195E0900057CFDD /* AntMan.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntMan.mp4; sourceTree = "<group>"; };
+		D46E03782195E0900057CFDD /* TheNutCracker.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheNutCracker.mp4; sourceTree = "<group>"; };
+		D46E03792195E0900057CFDD /* BlackPanther.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlackPanther.mp4; sourceTree = "<group>"; };
+		D46E037A2195E0900057CFDD /* AliceInWonderland */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AliceInWonderland; sourceTree = "<group>"; };
+		D46E037B2195E0900057CFDD /* Maleficent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Maleficent; sourceTree = "<group>"; };
+		D46E037C2195E0900057CFDD /* WrinkleInTime */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WrinkleInTime; sourceTree = "<group>"; };
+		D46E037D2195E0900057CFDD /* Maleficent.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Maleficent.mp4; sourceTree = "<group>"; };
+		D46E037E2195E0900057CFDD /* MaryPoppinsReturns.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaryPoppinsReturns.mp4; sourceTree = "<group>"; };
+		D46E037F2195E0900057CFDD /* BlackPanther */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BlackPanther; sourceTree = "<group>"; };
+		D46E03802195E0900057CFDD /* MaryPoppinsReturns */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MaryPoppinsReturns; sourceTree = "<group>"; };
+		D46E03812195E0900057CFDD /* WrinkleInTime.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = WrinkleInTime.mp4; sourceTree = "<group>"; };
+		D46E03902195E15F0057CFDD /* AntMan2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AntMan2; sourceTree = "<group>"; };
+		D46E03912195E15F0057CFDD /* AntMan */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AntMan; sourceTree = "<group>"; };
+		D4A61438219B7FE400718967 /* MovieMarkers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMarkers.swift; sourceTree = "<group>"; };
+		D4C52061219C38FE000DB2BA /* EmojiAVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiAVPlayerViewController.swift; sourceTree = "<group>"; };
+		D4E7DEFB2189BD9F00A5D3D2 /* MovieData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MovieData.json; sourceTree = "<group>"; };
+		D4E951D2218E30A000E6FA54 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D4E951D3218E30A000E6FA54 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D4E951E22191CA4900E6FA54 /* EmojiLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLogic.swift; sourceTree = "<group>"; };
+		D4F4BEC9219E110F00FEFBBB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D46C7BB82188ECC000EBEE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E951D4218E30A000E6FA54 /* AVFoundation.framework in Frameworks */,
+				D4E951D5218E30A000E6FA54 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46C7BCC2188ECC200EBEE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D46C7BB22188ECC000EBEE29 = {
+			isa = PBXGroup;
+			children = (
+				D42ACCAE21A802EE00F390B0 /* EmojiModel.mlmodel */,
+				D46C7BBD2188ECC000EBEE29 /* Leamoji */,
+				D46C7BBC2188ECC000EBEE29 /* Products */,
+				D4E951D1218E30A000E6FA54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D46C7BBC2188ECC000EBEE29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46C7BBB2188ECC000EBEE29 /* Leamoji.app */,
+				D46C7BCF2188ECC200EBEE29 /* LeamojiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46C7BBD2188ECC000EBEE29 /* Leamoji */ = {
+			isa = PBXGroup;
+			children = (
+				D46C7BBE2188ECC000EBEE29 /* AppDelegate.swift */,
+				D427AA6B218B1F8F00D5E829 /* CollectionViewCell.swift */,
+				D4C52061219C38FE000DB2BA /* EmojiAVPlayerViewController.swift */,
+				D4E951E22191CA4900E6FA54 /* EmojiLogic.swift */,
+				D46C7BCA2188ECC200EBEE29 /* Info.plist */,
+				D46C7BDE2188ECDB00EBEE29 /* Movie.swift */,
+				D427AA7F218B322B00D5E829 /* VideoDetailViewController.swift */,
+				D46C7BC02188ECC000EBEE29 /* VideoListViewController.swift */,
+				D4A61438219B7FE400718967 /* MovieMarkers.swift */,
+				D426CD9F2199E43200946EEE /* MovieParser.swift */,
+				D46C7BC22188ECC000EBEE29 /* Main.storyboard */,
+				D46C7BC72188ECC200EBEE29 /* LaunchScreen.storyboard */,
+				D46C7BC52188ECC200EBEE29 /* Assets.xcassets */,
+				D4F4BEC8219E10FD00FEFBBB /* Extensions */,
+				D46C7BE02188ED1D00EBEE29 /* Resources */,
+			);
+			path = Leamoji;
+			sourceTree = "<group>";
+		};
+		D46C7BE02188ED1D00EBEE29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D46E037A2195E0900057CFDD /* AliceInWonderland */,
+				D46E03912195E15F0057CFDD /* AntMan */,
+				D46E03902195E15F0057CFDD /* AntMan2 */,
+				D46E037F2195E0900057CFDD /* BlackPanther */,
+				D46E037B2195E0900057CFDD /* Maleficent */,
+				D46E03802195E0900057CFDD /* MaryPoppinsReturns */,
+				D46E03742195E08F0057CFDD /* TheNutCracker */,
+				D46E037C2195E0900057CFDD /* WrinkleInTime */,
+				D4E7DEFB2189BD9F00A5D3D2 /* MovieData.json */,
+				D46E03752195E08F0057CFDD /* AliceInWonderland.mp4 */,
+				D46E03772195E0900057CFDD /* AntMan.mp4 */,
+				D46E03762195E08F0057CFDD /* AntMan2.mp4 */,
+				D46E03792195E0900057CFDD /* BlackPanther.mp4 */,
+				D46E037D2195E0900057CFDD /* Maleficent.mp4 */,
+				D46E037E2195E0900057CFDD /* MaryPoppinsReturns.mp4 */,
+				D46E03782195E0900057CFDD /* TheNutCracker.mp4 */,
+				D46E03812195E0900057CFDD /* WrinkleInTime.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4E951D1218E30A000E6FA54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4E951D2218E30A000E6FA54 /* AVFoundation.framework */,
+				D4E951D3218E30A000E6FA54 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4F4BEC8219E10FD00FEFBBB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D4F4BEC9219E110F00FEFBBB /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D46C7BBA2188ECC000EBEE29 /* Leamoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46C7BD82188ECC200EBEE29 /* Build configuration list for PBXNativeTarget "Leamoji" */;
+			buildPhases = (
+				D46C7BB72188ECC000EBEE29 /* Sources */,
+				D46C7BB82188ECC000EBEE29 /* Frameworks */,
+				D46C7BB92188ECC000EBEE29 /* Resources */,
+				D4E951D62190516C00E6FA54 /* ShellScript */,
+				D42ACCAB21A2EC7700F390B0 /* Integrate RevealServer */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leamoji;
+			productName = Leamoji;
+			productReference = D46C7BBB2188ECC000EBEE29 /* Leamoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D46C7BCE2188ECC200EBEE29 /* LeamojiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46C7BDB2188ECC200EBEE29 /* Build configuration list for PBXNativeTarget "LeamojiTests" */;
+			buildPhases = (
+				D46C7BCB2188ECC200EBEE29 /* Sources */,
+				D46C7BCC2188ECC200EBEE29 /* Frameworks */,
+				D46C7BCD2188ECC200EBEE29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D46C7BD12188ECC200EBEE29 /* PBXTargetDependency */,
+			);
+			name = LeamojiTests;
+			productName = LeamojiTests;
+			productReference = D46C7BCF2188ECC200EBEE29 /* LeamojiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D46C7BB32188ECC000EBEE29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Youssra Outelli";
+				TargetAttributes = {
+					D46C7BBA2188ECC000EBEE29 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D46C7BCE2188ECC200EBEE29 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
+						TestTargetID = D46C7BBA2188ECC000EBEE29;
+					};
+				};
+			};
+			buildConfigurationList = D46C7BB62188ECC000EBEE29 /* Build configuration list for PBXProject "Leamoji" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D46C7BB22188ECC000EBEE29;
+			productRefGroup = D46C7BBC2188ECC000EBEE29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D46C7BBA2188ECC000EBEE29 /* Leamoji */,
+				D46C7BCE2188ECC200EBEE29 /* LeamojiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D46C7BB92188ECC000EBEE29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46E03852195E0900057CFDD /* AntMan.mp4 in Resources */,
+				D4E7DEFC2189BDA000A5D3D2 /* MovieData.json in Resources */,
+				D46E03872195E0900057CFDD /* BlackPanther.mp4 in Resources */,
+				D46E038C2195E0900057CFDD /* MaryPoppinsReturns.mp4 in Resources */,
+				D46E03822195E0900057CFDD /* TheNutCracker in Resources */,
+				D46E03932195E15F0057CFDD /* AntMan in Resources */,
+				D46E038A2195E0900057CFDD /* WrinkleInTime in Resources */,
+				D46E038B2195E0900057CFDD /* Maleficent.mp4 in Resources */,
+				D46E03862195E0900057CFDD /* TheNutCracker.mp4 in Resources */,
+				D46C7BC92188ECC200EBEE29 /* LaunchScreen.storyboard in Resources */,
+				D46E038E2195E0900057CFDD /* MaryPoppinsReturns in Resources */,
+				D46E038F2195E0900057CFDD /* WrinkleInTime.mp4 in Resources */,
+				D46E03892195E0900057CFDD /* Maleficent in Resources */,
+				D46E03882195E0900057CFDD /* AliceInWonderland in Resources */,
+				D46E038D2195E0900057CFDD /* BlackPanther in Resources */,
+				D46E03922195E15F0057CFDD /* AntMan2 in Resources */,
+				D46C7BC62188ECC200EBEE29 /* Assets.xcassets in Resources */,
+				D46E03842195E0900057CFDD /* AntMan2.mp4 in Resources */,
+				D46C7BC42188ECC000EBEE29 /* Main.storyboard in Resources */,
+				D46E03832195E0900057CFDD /* AliceInWonderland.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46C7BCD2188ECC200EBEE29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D42ACCAB21A2EC7700F390B0 /* Integrate RevealServer */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Integrate RevealServer";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export REVEAL_SERVER_FILENAME=\"RevealServer.framework\"\n\n# Update this path to point to the location of RevealServer.framework in your project.\nexport REVEAL_SERVER_PATH=\"${SRCROOT}/${REVEAL_SERVER_FILENAME}\"\n\n# If configuration is not Debug, skip this script.\n[ \"${CONFIGURATION}\" != \"Debug\" ] && exit 0\n\n# If RevealServer.framework exists at the specified path, run code signing script.\nif [ -d \"${REVEAL_SERVER_PATH}\" ]; then\n  \"${REVEAL_SERVER_PATH}/Scripts/copy_and_codesign_revealserver.sh\"\nelse\n  echo \"Reveal Server not loaded: RevealServer.framework could not be found.\"\nfi\n\n";
+		};
+		D4E951D62190516C00E6FA54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#if which swiftlint >/dev/null; then\n#swiftlint\n#else    \n#    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n#fi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D46C7BB72188ECC000EBEE29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D427AA6C218B1F8F00D5E829 /* CollectionViewCell.swift in Sources */,
+				D4C52062219C38FE000DB2BA /* EmojiAVPlayerViewController.swift in Sources */,
+				D42ACCAF21A802EE00F390B0 /* EmojiModel.mlmodel in Sources */,
+				D427AA80218B322B00D5E829 /* VideoDetailViewController.swift in Sources */,
+				D426CDA02199E43200946EEE /* MovieParser.swift in Sources */,
+				D4A61439219B7FE500718967 /* MovieMarkers.swift in Sources */,
+				D46C7BC12188ECC000EBEE29 /* VideoListViewController.swift in Sources */,
+				D46C7BBF2188ECC000EBEE29 /* AppDelegate.swift in Sources */,
+				D46C7BDF2188ECDB00EBEE29 /* Movie.swift in Sources */,
+				D4E951E32191CA4900E6FA54 /* EmojiLogic.swift in Sources */,
+				D4F4BECA219E110F00FEFBBB /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46C7BCB2188ECC200EBEE29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D46C7BD12188ECC200EBEE29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D46C7BBA2188ECC000EBEE29 /* Leamoji */;
+			targetProxy = D46C7BD02188ECC200EBEE29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D46C7BC22188ECC000EBEE29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46C7BC32188ECC000EBEE29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D46C7BC72188ECC200EBEE29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46C7BC82188ECC200EBEE29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D46C7BD62188ECC200EBEE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D46C7BD72188ECC200EBEE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D46C7BD92188ECC200EBEE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84T4K3LZ9W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = Leamoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-weak_framework",
+					RevealServer,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youtelli.Leamoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D46C7BDA2188ECC200EBEE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84T4K3LZ9W;
+				INFOPLIST_FILE = Leamoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youtelli.Leamoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D46C7BDC2188ECC200EBEE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84T4K3LZ9W;
+				INFOPLIST_FILE = LeamojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youtelli.LeamojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leamoji.app/Leamoji";
+			};
+			name = Debug;
+		};
+		D46C7BDD2188ECC200EBEE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84T4K3LZ9W;
+				INFOPLIST_FILE = LeamojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youtelli.LeamojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leamoji.app/Leamoji";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D46C7BB62188ECC000EBEE29 /* Build configuration list for PBXProject "Leamoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46C7BD62188ECC200EBEE29 /* Debug */,
+				D46C7BD72188ECC200EBEE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46C7BD82188ECC200EBEE29 /* Build configuration list for PBXNativeTarget "Leamoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46C7BD92188ECC200EBEE29 /* Debug */,
+				D46C7BDA2188ECC200EBEE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46C7BDB2188ECC200EBEE29 /* Build configuration list for PBXNativeTarget "LeamojiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46C7BDC2188ECC200EBEE29 /* Debug */,
+				D46C7BDD2188ECC200EBEE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D46C7BB32188ECC000EBEE29 /* Project object */;
+}

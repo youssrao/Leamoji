@@ -1,0 +1,52 @@
+[
+    {
+        "id": "AliceInWonderland",
+        "title": "Alice in Wonderland",
+        "description": "Nineteen-year-old Alice returns to the magical world from her childhood adventure, where she reunites with her old friends and learns of her true destiny: to end the Red Queen's reign of terror.",
+        "poster": "AlicePoster"
+    },
+    {
+        "id": "Maleficent",
+        "title": "Maleficent",
+        "description": "A vengeful fairy is driven to curse an infant princess, only to discover that the child may be the one person who can restore peace to their troubled land.",
+        "poster": "Maleficent"
+    },
+    {
+        "id": "BlackPanther",
+        "title": "Black Panther",
+        "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
+        "poster": "BlackPanther"
+    },
+    {
+        "id": "TheNutCracker",
+        "title": "The Nutcracker and the Four Realms",
+        "description": "A young girl is transported into a magical world of gingerbread soldiers and an army of mice.",
+        "poster": "Nutcracker"
+    },
+    {
+        "id": "WrinkleInTime",
+        "title": "A Wrinkle in Time",
+        "description": "After the disappearance of her scientist father, three peculiar beings send Meg, her brother, and her friend to space in order to find him.",
+        "poster": "WrinkleInTime"
+    },
+    {
+        "id": "MaryPoppinsReturns",
+        "title": "Mary Poppins Returns",
+        "description": "Decades after her original visit, the magical nanny returns to help the Banks siblings and Michael's children through a difficult time in their lives.",
+        "poster": "MaryPoppins"
+    },
+    {
+        "id": "AntMan",
+        "title": "Ant man ",
+        "description": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
+        "poster": "AntMan"
+    },
+    {
+        "id": "AntMan2",
+        "title": "Ant man and the Wasp ",
+        "description": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+        "poster": "AntMan2"
+    }
+]
+ 
+ 
