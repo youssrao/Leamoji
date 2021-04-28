@@ -25,12 +25,10 @@
 		D46E03872195E0900057CFDD /* BlackPanther.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E03792195E0900057CFDD /* BlackPanther.mp4 */; };
 		D46E03882195E0900057CFDD /* AliceInWonderland in Resources */ = {isa = PBXBuildFile; fileRef = D46E037A2195E0900057CFDD /* AliceInWonderland */; };
 		D46E03892195E0900057CFDD /* Maleficent in Resources */ = {isa = PBXBuildFile; fileRef = D46E037B2195E0900057CFDD /* Maleficent */; };
-		D46E038A2195E0900057CFDD /* WrinkleInTime in Resources */ = {isa = PBXBuildFile; fileRef = D46E037C2195E0900057CFDD /* WrinkleInTime */; };
 		D46E038B2195E0900057CFDD /* Maleficent.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E037D2195E0900057CFDD /* Maleficent.mp4 */; };
 		D46E038C2195E0900057CFDD /* MaryPoppinsReturns.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E037E2195E0900057CFDD /* MaryPoppinsReturns.mp4 */; };
 		D46E038D2195E0900057CFDD /* BlackPanther in Resources */ = {isa = PBXBuildFile; fileRef = D46E037F2195E0900057CFDD /* BlackPanther */; };
 		D46E038E2195E0900057CFDD /* MaryPoppinsReturns in Resources */ = {isa = PBXBuildFile; fileRef = D46E03802195E0900057CFDD /* MaryPoppinsReturns */; };
-		D46E038F2195E0900057CFDD /* WrinkleInTime.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D46E03812195E0900057CFDD /* WrinkleInTime.mp4 */; };
 		D46E03922195E15F0057CFDD /* AntMan2 in Resources */ = {isa = PBXBuildFile; fileRef = D46E03902195E15F0057CFDD /* AntMan2 */; };
 		D46E03932195E15F0057CFDD /* AntMan in Resources */ = {isa = PBXBuildFile; fileRef = D46E03912195E15F0057CFDD /* AntMan */; };
 		D4A61439219B7FE500718967 /* MovieMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A61438219B7FE400718967 /* MovieMarkers.swift */; };
@@ -41,16 +39,6 @@
 		D4E951E32191CA4900E6FA54 /* EmojiLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E951E22191CA4900E6FA54 /* EmojiLogic.swift */; };
 		D4F4BECA219E110F00FEFBBB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F4BEC9219E110F00FEFBBB /* Extensions.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D46C7BD02188ECC200EBEE29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D46C7BB32188ECC000EBEE29 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D46C7BBA2188ECC000EBEE29;
-			remoteInfo = Leamoji;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D426CD9F2199E43200946EEE /* MovieParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieParser.swift; sourceTree = "<group>"; };
@@ -64,7 +52,6 @@
 		D46C7BC52188ECC200EBEE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D46C7BC82188ECC200EBEE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D46C7BCA2188ECC200EBEE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D46C7BCF2188ECC200EBEE29 /* LeamojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeamojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46C7BDE2188ECDB00EBEE29 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		D46E03742195E08F0057CFDD /* TheNutCracker */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TheNutCracker; sourceTree = "<group>"; };
 		D46E03752195E08F0057CFDD /* AliceInWonderland.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AliceInWonderland.mp4; sourceTree = "<group>"; };
@@ -74,12 +61,10 @@
 		D46E03792195E0900057CFDD /* BlackPanther.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlackPanther.mp4; sourceTree = "<group>"; };
 		D46E037A2195E0900057CFDD /* AliceInWonderland */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AliceInWonderland; sourceTree = "<group>"; };
 		D46E037B2195E0900057CFDD /* Maleficent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Maleficent; sourceTree = "<group>"; };
-		D46E037C2195E0900057CFDD /* WrinkleInTime */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WrinkleInTime; sourceTree = "<group>"; };
 		D46E037D2195E0900057CFDD /* Maleficent.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Maleficent.mp4; sourceTree = "<group>"; };
 		D46E037E2195E0900057CFDD /* MaryPoppinsReturns.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaryPoppinsReturns.mp4; sourceTree = "<group>"; };
 		D46E037F2195E0900057CFDD /* BlackPanther */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BlackPanther; sourceTree = "<group>"; };
 		D46E03802195E0900057CFDD /* MaryPoppinsReturns */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MaryPoppinsReturns; sourceTree = "<group>"; };
-		D46E03812195E0900057CFDD /* WrinkleInTime.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = WrinkleInTime.mp4; sourceTree = "<group>"; };
 		D46E03902195E15F0057CFDD /* AntMan2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AntMan2; sourceTree = "<group>"; };
 		D46E03912195E15F0057CFDD /* AntMan */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AntMan; sourceTree = "<group>"; };
 		D4A61438219B7FE400718967 /* MovieMarkers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMarkers.swift; sourceTree = "<group>"; };
@@ -101,13 +86,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D46C7BCC2188ECC200EBEE29 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -125,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				D46C7BBB2188ECC000EBEE29 /* Leamoji.app */,
-				D46C7BCF2188ECC200EBEE29 /* LeamojiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,7 +139,6 @@
 				D46E037B2195E0900057CFDD /* Maleficent */,
 				D46E03802195E0900057CFDD /* MaryPoppinsReturns */,
 				D46E03742195E08F0057CFDD /* TheNutCracker */,
-				D46E037C2195E0900057CFDD /* WrinkleInTime */,
 				D4E7DEFB2189BD9F00A5D3D2 /* MovieData.json */,
 				D46E03752195E08F0057CFDD /* AliceInWonderland.mp4 */,
 				D46E03772195E0900057CFDD /* AntMan.mp4 */,
@@ -171,7 +147,6 @@
 				D46E037D2195E0900057CFDD /* Maleficent.mp4 */,
 				D46E037E2195E0900057CFDD /* MaryPoppinsReturns.mp4 */,
 				D46E03782195E0900057CFDD /* TheNutCracker.mp4 */,
-				D46E03812195E0900057CFDD /* WrinkleInTime.mp4 */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -215,24 +190,6 @@
 			productReference = D46C7BBB2188ECC000EBEE29 /* Leamoji.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D46C7BCE2188ECC200EBEE29 /* LeamojiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D46C7BDB2188ECC200EBEE29 /* Build configuration list for PBXNativeTarget "LeamojiTests" */;
-			buildPhases = (
-				D46C7BCB2188ECC200EBEE29 /* Sources */,
-				D46C7BCC2188ECC200EBEE29 /* Frameworks */,
-				D46C7BCD2188ECC200EBEE29 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D46C7BD12188ECC200EBEE29 /* PBXTargetDependency */,
-			);
-			name = LeamojiTests;
-			productName = LeamojiTests;
-			productReference = D46C7BCF2188ECC200EBEE29 /* LeamojiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -240,16 +197,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "Youssra Outelli";
 				TargetAttributes = {
 					D46C7BBA2188ECC000EBEE29 = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					D46C7BCE2188ECC200EBEE29 = {
-						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1010;
-						TestTargetID = D46C7BBA2188ECC000EBEE29;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -267,7 +220,6 @@
 			projectRoot = "";
 			targets = (
 				D46C7BBA2188ECC000EBEE29 /* Leamoji */,
-				D46C7BCE2188ECC200EBEE29 /* LeamojiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,12 +235,10 @@
 				D46E038C2195E0900057CFDD /* MaryPoppinsReturns.mp4 in Resources */,
 				D46E03822195E0900057CFDD /* TheNutCracker in Resources */,
 				D46E03932195E15F0057CFDD /* AntMan in Resources */,
-				D46E038A2195E0900057CFDD /* WrinkleInTime in Resources */,
 				D46E038B2195E0900057CFDD /* Maleficent.mp4 in Resources */,
 				D46E03862195E0900057CFDD /* TheNutCracker.mp4 in Resources */,
 				D46C7BC92188ECC200EBEE29 /* LaunchScreen.storyboard in Resources */,
 				D46E038E2195E0900057CFDD /* MaryPoppinsReturns in Resources */,
-				D46E038F2195E0900057CFDD /* WrinkleInTime.mp4 in Resources */,
 				D46E03892195E0900057CFDD /* Maleficent in Resources */,
 				D46E03882195E0900057CFDD /* AliceInWonderland in Resources */,
 				D46E038D2195E0900057CFDD /* BlackPanther in Resources */,
@@ -297,13 +247,6 @@
 				D46E03842195E0900057CFDD /* AntMan2.mp4 in Resources */,
 				D46C7BC42188ECC000EBEE29 /* Main.storyboard in Resources */,
 				D46E03832195E0900057CFDD /* AliceInWonderland.mp4 in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D46C7BCD2188ECC200EBEE29 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,22 +309,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D46C7BCB2188ECC200EBEE29 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D46C7BD12188ECC200EBEE29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D46C7BBA2188ECC000EBEE29 /* Leamoji */;
-			targetProxy = D46C7BD02188ECC200EBEE29 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D46C7BC22188ECC000EBEE29 /* Main.storyboard */ = {
@@ -429,6 +357,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -490,6 +419,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -530,7 +460,7 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = Leamoji/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -542,7 +472,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youtelli.Leamoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -554,60 +484,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84T4K3LZ9W;
 				INFOPLIST_FILE = Leamoji/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youtelli.Leamoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D46C7BDC2188ECC200EBEE29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84T4K3LZ9W;
-				INFOPLIST_FILE = LeamojiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.youtelli.LeamojiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leamoji.app/Leamoji";
-			};
-			name = Debug;
-		};
-		D46C7BDD2188ECC200EBEE29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84T4K3LZ9W;
-				INFOPLIST_FILE = LeamojiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.youtelli.LeamojiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leamoji.app/Leamoji";
 			};
 			name = Release;
 		};
@@ -628,15 +513,6 @@
 			buildConfigurations = (
 				D46C7BD92188ECC200EBEE29 /* Debug */,
 				D46C7BDA2188ECC200EBEE29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D46C7BDB2188ECC200EBEE29 /* Build configuration list for PBXNativeTarget "LeamojiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D46C7BDC2188ECC200EBEE29 /* Debug */,
-				D46C7BDD2188ECC200EBEE29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

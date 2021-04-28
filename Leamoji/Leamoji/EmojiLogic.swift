@@ -32,8 +32,16 @@ public enum EmojiType: String, Codable {
 
 class EmojiLogic {
   
-  var model = EmojiModel()
-  
+  var model: EmojiModel = {
+    do {
+      let config = MLModelConfiguration()
+      return try EmojiModel(configuration: config)
+    } catch {
+      print(error)
+      fatalError("Couldn't create EmojiModel")
+    }
+  }()
+
   func emojiType(from image: UIImage) -> EmojiType {
     
     guard let pixelBuffer = self.createPixelBuffer(image: image) else {
